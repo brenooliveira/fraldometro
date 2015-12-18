@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55AB7E4E1BBB6C7100D18767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB7E4D1BBB6C7100D18767 /* AppDelegate.swift */; };
+		55AB7E501BBB6C7100D18767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB7E4F1BBB6C7100D18767 /* ViewController.swift */; };
+		55AB7E531BBB6C7100D18767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AB7E511BBB6C7100D18767 /* Main.storyboard */; };
+		55AB7E551BBB6C7100D18767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AB7E541BBB6C7100D18767 /* Assets.xcassets */; };
+		55AB7E581BBB6C7100D18767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AB7E561BBB6C7100D18767 /* LaunchScreen.storyboard */; };
+		55AB7E631BBB6C7100D18767 /* FraldometroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB7E621BBB6C7100D18767 /* FraldometroTests.swift */; };
+		55AB7E6E1BBB6C7100D18767 /* FraldometroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AB7E6D1BBB6C7100D18767 /* FraldometroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55AB7E5F1BBB6C7100D18767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55AB7E421BBB6C7100D18767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AB7E491BBB6C7100D18767;
+			remoteInfo = Fraldometro;
+		};
+		55AB7E6A1BBB6C7100D18767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55AB7E421BBB6C7100D18767 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AB7E491BBB6C7100D18767;
+			remoteInfo = Fraldometro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55AB7E4A1BBB6C7100D18767 /* Fraldometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraldometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AB7E4D1BBB6C7100D18767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55AB7E4F1BBB6C7100D18767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55AB7E521BBB6C7100D18767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55AB7E541BBB6C7100D18767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55AB7E571BBB6C7100D18767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55AB7E591BBB6C7100D18767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AB7E5E1BBB6C7100D18767 /* FraldometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FraldometroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AB7E621BBB6C7100D18767 /* FraldometroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraldometroTests.swift; sourceTree = "<group>"; };
+		55AB7E641BBB6C7100D18767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AB7E691BBB6C7100D18767 /* FraldometroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FraldometroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AB7E6D1BBB6C7100D18767 /* FraldometroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FraldometroUITests.swift; sourceTree = "<group>"; };
+		55AB7E6F1BBB6C7100D18767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55AB7E471BBB6C7100D18767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AB7E5B1BBB6C7100D18767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AB7E661BBB6C7100D18767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55AB7E411BBB6C7100D18767 = {
+			isa = PBXGroup;
+			children = (
+				55AB7E4C1BBB6C7100D18767 /* Fraldometro */,
+				55AB7E611BBB6C7100D18767 /* FraldometroTests */,
+				55AB7E6C1BBB6C7100D18767 /* FraldometroUITests */,
+				55AB7E4B1BBB6C7100D18767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55AB7E4B1BBB6C7100D18767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55AB7E4A1BBB6C7100D18767 /* Fraldometro.app */,
+				55AB7E5E1BBB6C7100D18767 /* FraldometroTests.xctest */,
+				55AB7E691BBB6C7100D18767 /* FraldometroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AB7E4C1BBB6C7100D18767 /* Fraldometro */ = {
+			isa = PBXGroup;
+			children = (
+				55AB7E4D1BBB6C7100D18767 /* AppDelegate.swift */,
+				55AB7E4F1BBB6C7100D18767 /* ViewController.swift */,
+				55AB7E511BBB6C7100D18767 /* Main.storyboard */,
+				55AB7E541BBB6C7100D18767 /* Assets.xcassets */,
+				55AB7E561BBB6C7100D18767 /* LaunchScreen.storyboard */,
+				55AB7E591BBB6C7100D18767 /* Info.plist */,
+			);
+			path = Fraldometro;
+			sourceTree = "<group>";
+		};
+		55AB7E611BBB6C7100D18767 /* FraldometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				55AB7E621BBB6C7100D18767 /* FraldometroTests.swift */,
+				55AB7E641BBB6C7100D18767 /* Info.plist */,
+			);
+			path = FraldometroTests;
+			sourceTree = "<group>";
+		};
+		55AB7E6C1BBB6C7100D18767 /* FraldometroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55AB7E6D1BBB6C7100D18767 /* FraldometroUITests.swift */,
+				55AB7E6F1BBB6C7100D18767 /* Info.plist */,
+			);
+			path = FraldometroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55AB7E491BBB6C7100D18767 /* Fraldometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AB7E721BBB6C7100D18767 /* Build configuration list for PBXNativeTarget "Fraldometro" */;
+			buildPhases = (
+				55AB7E461BBB6C7100D18767 /* Sources */,
+				55AB7E471BBB6C7100D18767 /* Frameworks */,
+				55AB7E481BBB6C7100D18767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fraldometro;
+			productName = Fraldometro;
+			productReference = 55AB7E4A1BBB6C7100D18767 /* Fraldometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55AB7E5D1BBB6C7100D18767 /* FraldometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AB7E751BBB6C7100D18767 /* Build configuration list for PBXNativeTarget "FraldometroTests" */;
+			buildPhases = (
+				55AB7E5A1BBB6C7100D18767 /* Sources */,
+				55AB7E5B1BBB6C7100D18767 /* Frameworks */,
+				55AB7E5C1BBB6C7100D18767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55AB7E601BBB6C7100D18767 /* PBXTargetDependency */,
+			);
+			name = FraldometroTests;
+			productName = FraldometroTests;
+			productReference = 55AB7E5E1BBB6C7100D18767 /* FraldometroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55AB7E681BBB6C7100D18767 /* FraldometroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AB7E781BBB6C7100D18767 /* Build configuration list for PBXNativeTarget "FraldometroUITests" */;
+			buildPhases = (
+				55AB7E651BBB6C7100D18767 /* Sources */,
+				55AB7E661BBB6C7100D18767 /* Frameworks */,
+				55AB7E671BBB6C7100D18767 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55AB7E6B1BBB6C7100D18767 /* PBXTargetDependency */,
+			);
+			name = FraldometroUITests;
+			productName = FraldometroUITests;
+			productReference = 55AB7E691BBB6C7100D18767 /* FraldometroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55AB7E421BBB6C7100D18767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					55AB7E491BBB6C7100D18767 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					55AB7E5D1BBB6C7100D18767 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 55AB7E491BBB6C7100D18767;
+					};
+					55AB7E681BBB6C7100D18767 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 55AB7E491BBB6C7100D18767;
+					};
+				};
+			};
+			buildConfigurationList = 55AB7E451BBB6C7100D18767 /* Build configuration list for PBXProject "Fraldometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55AB7E411BBB6C7100D18767;
+			productRefGroup = 55AB7E4B1BBB6C7100D18767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AB7E491BBB6C7100D18767 /* Fraldometro */,
+				55AB7E5D1BBB6C7100D18767 /* FraldometroTests */,
+				55AB7E681BBB6C7100D18767 /* FraldometroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55AB7E481BBB6C7100D18767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AB7E581BBB6C7100D18767 /* LaunchScreen.storyboard in Resources */,
+				55AB7E551BBB6C7100D18767 /* Assets.xcassets in Resources */,
+				55AB7E531BBB6C7100D18767 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AB7E5C1BBB6C7100D18767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AB7E671BBB6C7100D18767 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55AB7E461BBB6C7100D18767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AB7E501BBB6C7100D18767 /* ViewController.swift in Sources */,
+				55AB7E4E1BBB6C7100D18767 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AB7E5A1BBB6C7100D18767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AB7E631BBB6C7100D18767 /* FraldometroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55AB7E651BBB6C7100D18767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AB7E6E1BBB6C7100D18767 /* FraldometroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55AB7E601BBB6C7100D18767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55AB7E491BBB6C7100D18767 /* Fraldometro */;
+			targetProxy = 55AB7E5F1BBB6C7100D18767 /* PBXContainerItemProxy */;
+		};
+		55AB7E6B1BBB6C7100D18767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55AB7E491BBB6C7100D18767 /* Fraldometro */;
+			targetProxy = 55AB7E6A1BBB6C7100D18767 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55AB7E511BBB6C7100D18767 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55AB7E521BBB6C7100D18767 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55AB7E561BBB6C7100D18767 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55AB7E571BBB6C7100D18767 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55AB7E701BBB6C7100D18767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55AB7E711BBB6C7100D18767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55AB7E731BBB6C7100D18767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fraldometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fraldometro.Fraldometro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55AB7E741BBB6C7100D18767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fraldometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fraldometro.Fraldometro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55AB7E761BBB6C7100D18767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FraldometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fraldometro.FraldometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fraldometro.app/Fraldometro";
+			};
+			name = Debug;
+		};
+		55AB7E771BBB6C7100D18767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FraldometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fraldometro.FraldometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fraldometro.app/Fraldometro";
+			};
+			name = Release;
+		};
+		55AB7E791BBB6C7100D18767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FraldometroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fraldometro.FraldometroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fraldometro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		55AB7E7A1BBB6C7100D18767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FraldometroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fraldometro.FraldometroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fraldometro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55AB7E451BBB6C7100D18767 /* Build configuration list for PBXProject "Fraldometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AB7E701BBB6C7100D18767 /* Debug */,
+				55AB7E711BBB6C7100D18767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55AB7E721BBB6C7100D18767 /* Build configuration list for PBXNativeTarget "Fraldometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AB7E731BBB6C7100D18767 /* Debug */,
+				55AB7E741BBB6C7100D18767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55AB7E751BBB6C7100D18767 /* Build configuration list for PBXNativeTarget "FraldometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AB7E761BBB6C7100D18767 /* Debug */,
+				55AB7E771BBB6C7100D18767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55AB7E781BBB6C7100D18767 /* Build configuration list for PBXNativeTarget "FraldometroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55AB7E791BBB6C7100D18767 /* Debug */,
+				55AB7E7A1BBB6C7100D18767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55AB7E421BBB6C7100D18767 /* Project object */;
+}

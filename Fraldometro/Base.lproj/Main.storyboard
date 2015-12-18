@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Fraldometro" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Informe quantos meses tem seu bebê:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOq-nB-HdN">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="46t-1x-QU3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="46t-1x-QU3"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="46t-1x-QU3"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cyo-Xw-VvS">
+                                <rect key="frame" x="0.0" y="20" width="600" height="121"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="1TU-nW-9tt"/>
+                                    <constraint firstAttribute="height" constant="121" id="70N-XC-LYQ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="400" id="Bir-8P-Xut"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1TU-nW-9tt"/>
+                                        <exclude reference="70N-XC-LYQ"/>
+                                        <exclude reference="Bir-8P-Xut"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="65" width="400" height="27"/>
+                                    <mask key="constraints">
+                                        <include reference="1TU-nW-9tt"/>
+                                        <include reference="70N-XC-LYQ"/>
+                                        <include reference="Bir-8P-Xut"/>
+                                    </mask>
+                                </variation>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHg-P2-9Zn">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="102"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PoK-BY-FhE">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9882352941176471" green="0.59359922230756057" blue="0.67716617838426041" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qOq-nB-HdN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="2EG-Mv-fKq"/>
+                            <constraint firstItem="PoK-BY-FhE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AQp-gb-ZdV"/>
+                            <constraint firstItem="uHg-P2-9Zn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TMD-Kj-02F"/>
+                            <constraint firstItem="Cyo-Xw-VvS" firstAttribute="top" secondItem="qOq-nB-HdN" secondAttribute="bottom" constant="16" id="Veq-Ps-3oJ"/>
+                            <constraint firstItem="uHg-P2-9Zn" firstAttribute="top" secondItem="PoK-BY-FhE" secondAttribute="bottom" constant="83" id="bbX-GT-3bd"/>
+                            <constraint firstItem="Cyo-Xw-VvS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="eOk-hu-Sis"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uHg-P2-9Zn" secondAttribute="bottom" constant="20" id="gWb-BM-pc3"/>
+                            <constraint firstItem="qOq-nB-HdN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="y1K-5W-W3m"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="qOq-nB-HdN"/>
+                                <exclude reference="uHg-P2-9Zn"/>
+                                <exclude reference="PoK-BY-FhE"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="gWb-BM-pc3"/>
+                                <exclude reference="AQp-gb-ZdV"/>
+                                <exclude reference="2EG-Mv-fKq"/>
+                                <exclude reference="y1K-5W-W3m"/>
+                                <exclude reference="TMD-Kj-02F"/>
+                                <exclude reference="bbX-GT-3bd"/>
+                                <exclude reference="Veq-Ps-3oJ"/>
+                                <exclude reference="eOk-hu-Sis"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="qOq-nB-HdN"/>
+                                <include reference="uHg-P2-9Zn"/>
+                                <include reference="PoK-BY-FhE"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="gWb-BM-pc3"/>
+                                <include reference="AQp-gb-ZdV"/>
+                                <include reference="2EG-Mv-fKq"/>
+                                <include reference="y1K-5W-W3m"/>
+                                <include reference="TMD-Kj-02F"/>
+                                <include reference="bbX-GT-3bd"/>
+                                <include reference="Veq-Ps-3oJ"/>
+                                <include reference="eOk-hu-Sis"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="lblAge" destination="qOq-nB-HdN" id="K9c-j3-cmz"/>
+                        <outlet property="picker" destination="Cyo-Xw-VvS" id="SPS-c4-FFp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="322"/>
+        </scene>
+    </scenes>
+</document>
